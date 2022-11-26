@@ -1,0 +1,29 @@
+{
+  "name": "xrx-cli",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xrx-cli": "bin/cm.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.x.x",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "8.2.0",
+    "log-symbols": "4.x.x",
+    "ora": "5.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.28.0"
+  }
+}
