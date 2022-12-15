@@ -1,1 +1,4 @@
-{"xrx":"git@github.com:XuRuiXi/xrx-react-env-template.git"}
+{
+  "react": "git@github.com:XuRuiXi/xrx-react-env-template.git",
+  "vue": ""
+}
