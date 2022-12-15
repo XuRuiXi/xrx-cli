@@ -1,7 +1,5 @@
 ### 发布一个脚手架
 
-path.resolve()// 返回运行的目录（命令运行的目录）
-
 首先npm初始化项目 npm init  
 ```
 npm init
