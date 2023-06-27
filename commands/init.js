@@ -32,7 +32,8 @@ export default function(name, type){
       default: 'react',
       choices: [
         { value: 'react', name: 'react' },
-        { value: 'vue', name: 'vue' }
+        { value: 'bigScreen', name: 'bigScreen' },
+        { value: 'oldProject', name: 'oldProject' }
       ]
     },
     {
@@ -55,7 +56,7 @@ export default function(name, type){
     // 出现加载图标
     const spinner = ora('Downloading...')
     spinner.start()
-  
+    console.log(`\n${url}\n`);
     download(`direct:${url}`, `./${projectName}`, { clone: true }, (err) => {
       if (err) {
         spinner.fail()

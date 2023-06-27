@@ -1,6 +1,7 @@
-export const ORGIN_TYPE = ['react', 'vue'];
+export const ORGIN_TYPE = ['react', 'bigScreen', 'oldProject'];
 
 export const ORGINS = {
   react: "git@github.com:XuRuiXi/xrx-react-env-template.git",
-  vue: ""
+  bigScreen: "git@github.com:XuRuiXi/xrx-big-screen.git",
+  oldProject: 'git@github.com:XuRuiXi/xrx-old-project-template.git',
 }

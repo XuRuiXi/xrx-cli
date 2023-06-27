@@ -16,7 +16,7 @@ program
   .name(json.name)
   .usage('<command>')
   .version(json.version)
-  .description('一款用于初始化react / vue项目的脚手架')
+  .description(`一款用于初始化${ORGIN_TYPE.join('/')}项目的脚手架`)
 
 program
   .command('init')
@@ -33,9 +33,9 @@ program
 
 program
   .command('changeOrgin')
-  .argument('<orginType>', '更改的源类型 react / vue')
+  .argument('<orginType>', `更改的源类型, ${ORGIN_TYPE.join('/')}`)
   .argument('<orginAddress>', '更改的源地址')
-  .description('更改react / vue的模板源')
+  .description(`更改${ORGIN_TYPE.join('/')}的模板源`)
   .action((orginType, orginAddress) => {
     if (!ORGIN_TYPE.includes(orginType)) {
       console.log(chalk.red(`orginType只能是${ORGIN_TYPE.join('/')}其中一个`));
